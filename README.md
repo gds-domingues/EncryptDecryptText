@@ -66,8 +66,6 @@ This code essentially provides a command-line interface for various encryption a
 
 Print Menu:
 
-python
-Copy code
 print('1 - CAESAR ENCRYPTION\n'
     '2 - CAESAR DECRYPTION\n'
     '3 - SHA ENCRYPTION\n'
@@ -79,9 +77,6 @@ print('1 - CAESAR ENCRYPTION\n'
 This prints the menu of available encryption and decryption methods.
 
 User Input:
-
-python
-Copy code
 encryption_method = input('Enter an encryption method: ')
 This line takes user input for choosing an encryption or decryption method.
 
@@ -91,42 +86,35 @@ The code uses a series of if and elif statements to check the user's input and e
 Handling Each Option:
 
 Option 1 (Caesar Encryption):
-
 Takes input text and rotation shift value.
 Calls caesar_encrypt function.
 Prints original and encrypted text.
 
 Option 2 (Caesar Decryption):
-
 Takes input encrypted text and rotation shift value.
 Calls caesar_decrypt function.
 Prints original and decrypted text.
 
 Option 3 (SHA-256 Encryption):
-
 Takes input text.
 Calls sha256_encrypt function.
 Prints original and encrypted text.
 
 Option 4 (SHA-256 Decryption):
-
 Prints that SHA-256 decryption is not possible as it's a one-way hash function.
 
 Option 5 (Fernet AES Encryption):
-
 Generates a Fernet private key.
 Takes input text.
 Calls encrypt_with_private_key function.
 Prints private key, original, and encrypted text.
 
 Option 6 (Fernet AES Decryption):
-
 Takes input encrypted text and private key.
 Calls decrypt_with_private_key function.
 Prints decrypted text.
 
 Option 7 (RSA Encryption):
-
 Generates RSA key pair.
 Takes input text.
 Calls rsa_encrypt function.
@@ -134,7 +122,6 @@ Prints public key, private key (to be kept safe), and encrypted text.
 Saves private key and encrypted text to files.
 
 Option 8 (RSA Decryption):
-
 Checks if the private key file exists.
 Loads private key.
 Takes input path to the file containing encrypted text.
