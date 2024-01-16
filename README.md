@@ -65,15 +65,6 @@ The main function is the entry point of the script, providing an interactive men
 This code essentially provides a command-line interface for various encryption and decryption methods, including Caesar cipher, SHA-256 hash, Fernet symmetric encryption, and RSA encryption. It also includes functionality to save and load keys and encrypted text to and from files.
 
 Print Menu:
-
-print('1 - CAESAR ENCRYPTION\n'
-    '2 - CAESAR DECRYPTION\n'
-    '3 - SHA ENCRYPTION\n'
-    '4 - SHA DECRYPTION\n'
-    '5 - AES ENCRYPTION\n'
-    '6 - AES DECRYPTION\n'
-    '7 - RSA ENCRYPTION\n'
-    '8 - RSA DECRYPTION\n')
 This prints the menu of available encryption and decryption methods.
 
 User Input:
