@@ -2,6 +2,8 @@
     #### Video Demo:  <https://www.youtube.com/watch?v=EISF5IKysJU&ab_channel=GabrielD>
     #### Description:
 
+This program serves as a comprehensive encryption and decryption tool with eight distinct options. It enables users to encrypt and decrypt text using various methods. Options 1 and 2 implement Caesar cipher encryption and decryption, respectively, requiring user input for text and rotation shift values. Option 3 performs SHA-256 encryption on user-provided text, while Option 4 explains the impossibility of SHA-256 decryption due to its one-way nature. Options 5 and 6 utilize Fernet symmetric encryption, generating a private key and allowing users to encrypt and decrypt text. Options 7 and 8 involve RSA encryption and decryption, generating key pairs, processing user input, and saving encrypted text and private keys to files. Overall, the program provides a user-friendly interface for securing and revealing information through diverse cryptographic techniques.
+
 **Import Statements:**
 
 These statements play a crucial role in incorporating essential modules and libraries into the code. Notable libraries encompass cryptography for cryptographic operations and Fernet for symmetric encryption.
